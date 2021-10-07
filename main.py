@@ -33,15 +33,4 @@ async def create_personne(p: Personne):
         personnes.append(p)
     return f"La liste a maintenant {len(personnes)} objet(s) de type Personne"
 
-@app.delete("/personnes/{nom}")
-async def delete_personne(nom):
-    personneASupprimer = None
-    for p in personnes:
-        if p.nom == nom:
-            personneASupprimer = p
-    
-    if personneASupprimer == None:
-        raise HTTPException(status_code=404, detail="Item not found")
-    
-    personnes.remove(personneASupprimer)
-    return f"L'objet Personne dont le nom est '{nom}' a été supprimée de la liste"
+## Ajoutez l'opération Delete
