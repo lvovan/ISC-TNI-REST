@@ -1,7 +1,7 @@
 # ISC-TNI-REST Travaux Pratiques sur les API REST
 
 ## Objectif du TP
-Lors de cette séance de travaux pratiques nous allons développer un service REST en Python, que nous allons ensuite sécuriser par le biais d'un jeton et consommer de deux manières différentes.
+Lors de cette séance de travaux pratiques nous allons déployer une API REST, l'utiliser et la modifier.
 
 ## Pré-requis
 Ce TP requiert un certain nombre de prérequis techniques sur votre machine:
@@ -14,8 +14,8 @@ Depuis la ligne de commande dans votre dossier de travail, exécutez: `pip insta
 ## Step 1. Implémentation du serveur REST (Python, Flask)
 FastAPI étant installé, vous pouvez maintenant lancer votre serveur REST:
  - Exécutez `uvicorn main:app --reload`
- - Lancez un navigateur et naviguez vers [http://localhost:8000](http://localhost:8000), vous recevez une réponse au format json!
- - Modifiez le code source pour renvoyer une autre valeur et testez à nouveau
+ - Lancez un navigateur et naviguez vers [http://localhost:8000](http://localhost:8000), vous recevez une réponse très simple au format json
+ - Modifiez la fonction adéquate dans **main.py** pour renvoyer une autre valeur et testez à nouveau
 
 FastAPI dispose d'une fonctionnalité de documentation automatique. Pour la voir en action, naviguez vers une de ces deux adresses:
  - [http://localhost:8000/docs](http://localhost:8000/docs)

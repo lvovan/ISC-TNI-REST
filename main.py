@@ -10,8 +10,13 @@ app = FastAPI()
 
 personnes = []
 
-@app.get("/personnes")
+@app.get("/")
 async def root():
+    return {"message": "Hello World"}
+
+
+@app.get("/personnes")
+async def all():
     return personnes
 
 @app.get("/personnes/{nom}")
