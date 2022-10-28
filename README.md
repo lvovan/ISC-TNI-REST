@@ -13,7 +13,7 @@ Depuis la ligne de commande dans votre dossier de travail, exécutez: `pip insta
 
 ## Step 1. Implémentation du serveur REST (Python, Flask)
 FastAPI étant installé, vous pouvez maintenant lancer votre serveur REST:
- - Exécutez `uvicorn main:app --reload`
+ - Exécutez `uvicorn main:app --reload` depuis le dossier contenant **main.py**
  - Lancez un navigateur et naviguez vers [http://localhost:8000](http://localhost:8000), vous recevez une réponse très simple au format json
  - Modifiez la fonction adéquate dans **main.py** pour renvoyer une autre valeur et testez à nouveau
 
