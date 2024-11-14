@@ -9,7 +9,8 @@ Ce TP requiert un certain nombre de prérequis techniques sur votre machine:
   - Postman ([téléchargement](https://github.com/portapps/postman-portable/releases/download/8.5.1-50/postman-portable-win64-8.5.1-50.7z))
 
 ## Step 1. Installez FastAPI
-Depuis la ligne de commande dans votre dossier de travail, exécutez: `pip install "fastapi[all]"`
+1. Assurez-vous d'avoir le fichier [main.py](main.py) dans votre dossier de travail
+2. Depuis la ligne de commande dans votre dossier de travail, exécutez: `pip install "fastapi[all]"`
 
 ## Step 1. Implémentation du serveur REST (Python, Flask)
 FastAPI étant installé, vous pouvez maintenant lancer votre serveur REST:
