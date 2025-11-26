@@ -23,8 +23,8 @@ FastAPI dispose d'une fonctionnalité de documentation automatique. Pour la voir
  - [http://localhost:8000/redoc](http://localhost:8000/redoc)
 
 ## Step 2. Consommation de l'API
-Utilisez Postman pour déterminer le fonctionnement de l'API.
- - Utilisez la fonctionnalité de documentation automatique pour vous guider
+Utilisez Bruno pour tester et comprendre le fonctionnement de l'API.
+ - Utilisez la fonctionnalité de documentation automatique de l'étape précédente pour vous guider
  - N'oubliez pas de spécifier l'entête (header) `content-type` avec la valeur `application/json`
 
 ## Step 3. Modification de l'API
