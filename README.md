@@ -6,7 +6,7 @@ Lors de cette séance de travaux pratiques nous allons déployer une API REST, l
 ## Pré-requis
 Ce TP requiert un certain nombre de prérequis techniques sur votre machine:
   - Python 3.x
-  - Postman ([téléchargement](https://github.com/portapps/postman-portable/releases/download/8.5.1-50/postman-portable-win64-8.5.1-50.7z))
+  - Bruno ([téléchargement](https://www.usebruno.com/)), un outil qui vous permettra de tester vos requêtes REST plus facilement
 
 ## Step 1. Installez FastAPI
 1. Assurez-vous d'avoir le fichier [main.py](main.py) dans votre dossier de travail
